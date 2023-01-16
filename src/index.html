@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,16 +30,58 @@
     <section class="painel">
       <h2>Aqui o café é só o começo.</h2>
     </section>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section class="secao-com-texto" id="quem-somos">
+      <header>
+        <img src="/src/images/logo-secoes.png" alt="Desenho de café">
+        <h2>Quem Somos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure et porro, quod sit illum ea necessitatibus excepturi inventore delectus iste?</p>
+      </header>
+    </section>
+    <section class="ladrilho">
+      <div class="grande"></div>
+      <div class="pequeno-grao"></div>
+      <div class="pequeno"></div>
+      <div class="medio"></div>
+    </section>
+    <section class="secao-com-texto onde-estamos" id="onde-estamos">
+      <header>
+        <img src="/src/images/logo-secoes.png" alt="Desenho de café">
+        <h2>Onde Estamos</h2>
+        <p>Avenida Boa Viagem, 2005 - Boa Viagem Recife - PE</p>
+      </header>
+    </section>
+    <section class="contato" id="contato">
+      <div class="texto">
+        <h2>Contato</h2>
+        <address>
+          Telefone: (81) 99999-9999<br>
+          Email: contato@coffeepage.com<br>
+          Horário de atendimento:<br>
+          Seg a Sex - 9h até 22h
+        </address>
+      </div>
+    </section>
   </main>
-  <footer>
+  <footer class="rodape">
+    <a href="index.html">
+      <img src="/src/images/logo.jpg" alt="Logo da página">
+    </a>
     <ul>
       <li><a href="#quem-somos">Quem Somos</a></li>
       <li><a href="#onde-estamos">Onde Estamos</a></li>
       <li><a href="#contato">Contato</a></li>
     </ul>
+    <div class="conteudo-de-baixo">
+      <div class="redes-sociais">
+        <a href="#" target="_blank">
+          <img class="facebook" src="/src/images/face.png" title="Logo Facebook" alt="Logo Facebook">
+        </a>
+        <a href="#" target="_blank">
+          <img class="instagram" src="/src/images/insta.png" title="Logo Instagram" alt="Logo Instagram">
+        </a>
+      </div>
+      <div class="copyright">&#169; 2023 Coffee Page</div>
+    </div>
   </footer>
 </body>
 </html>
